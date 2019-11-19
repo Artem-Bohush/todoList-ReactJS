@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/%7Brepo-name%7D/static/css/main.560dbde5.chunk.css",
+    "main.js": "/%7Brepo-name%7D/static/js/main.1ad7a89c.chunk.js",
+    "main.js.map": "/%7Brepo-name%7D/static/js/main.1ad7a89c.chunk.js.map",
+    "runtime-main.js": "/%7Brepo-name%7D/static/js/runtime-main.9106a2a0.js",
+    "runtime-main.js.map": "/%7Brepo-name%7D/static/js/runtime-main.9106a2a0.js.map",
+    "static/js/2.5fd335df.chunk.js": "/%7Brepo-name%7D/static/js/2.5fd335df.chunk.js",
+    "static/js/2.5fd335df.chunk.js.map": "/%7Brepo-name%7D/static/js/2.5fd335df.chunk.js.map",
+    "static/js/3.2baa9507.chunk.js": "/%7Brepo-name%7D/static/js/3.2baa9507.chunk.js",
+    "static/js/3.2baa9507.chunk.js.map": "/%7Brepo-name%7D/static/js/3.2baa9507.chunk.js.map",
+    "index.html": "/%7Brepo-name%7D/index.html",
+    "precache-manifest.03183921c484268e3067da83c6f81d3a.js": "/%7Brepo-name%7D/precache-manifest.03183921c484268e3067da83c6f81d3a.js",
+    "service-worker.js": "/%7Brepo-name%7D/service-worker.js",
+    "static/css/main.560dbde5.chunk.css.map": "/%7Brepo-name%7D/static/css/main.560dbde5.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9106a2a0.js",
+    "static/js/2.5fd335df.chunk.js",
+    "static/css/main.560dbde5.chunk.css",
+    "static/js/main.1ad7a89c.chunk.js"
+  ]
+}
