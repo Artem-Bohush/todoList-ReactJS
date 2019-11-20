@@ -1,2 +1,2 @@
 # todoList-ReactJS
-Follow this link to see the app
+You can watch the application at this [link](https://artem-bohush.github.io/todoList-ReactJS/)
