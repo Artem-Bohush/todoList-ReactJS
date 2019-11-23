@@ -4,19 +4,19 @@ import Contex from '../contex';
 
 function TodoItem({ todo, index, completeTask }) {
   const contex = useContext(Contex);
-  const classes = [];
+  const classes = ['todo-title'];
   if (todo.completed === true) {
     classes.push('done')
   }
 
   return (
     <li className="todo-item">
-      <div className={classes.join(' ')}>
+      <div className="data-wrapper">
         <input type="checkbox" checked={todo.completed} onChange={() => completeTask(todo.id)} />
         <span className="todo-id">{index + 1}</span>
-        <span className="todo-title">{todo.title}</span>
+        <span className={classes.join(' ')}>{todo.title}</span>
       </div>
-      <button onClick={() => contex.removeTodo(todo.id)}>&times;</button>
+      <button onClick={() => contex.removeTodo(todo.id)}></button>
     </li>
   )
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Modal from './Modal';
 import PropTypes from 'prop-types';
 
 // это собственный хук
@@ -14,8 +15,8 @@ function useInputValue(defaultValue = '') {
   }
 }
 
-function AddTodo({ onCreate }) {
-  const inputProps = useInputValue('');
+function AddTodo({ onCreate, reorder }) {
+  const inputProps = useInputValue();
 
   function submitHandler(event) {
     event.preventDefault();
@@ -26,10 +27,14 @@ function AddTodo({ onCreate }) {
   }
 
   return (
-    <form onSubmit={submitHandler}>
-      <input {...inputProps.bind} />
-      <button type="submit">Add</button>
-    </form>
+    <div className="panel">
+      <form onSubmit={submitHandler}>
+        <input {...inputProps.bind} placeholder="new task..."/>
+        <button className="add-btn" type="submit">Add</button>
+      </form>
+      <button className="reorder-btn" onClick={reorder}>Reorder</button>
+      <Modal />
+    </div>
   )
 }
 

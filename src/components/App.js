@@ -3,9 +3,9 @@ import '../css/App.css';
 import TodoList from './TodoList';
 import Contex from '../contex';
 import Loader from './Loader';
-import Modal from '../modal/Modal';
 
-const AddTodo = React.lazy(() => import('./AddTodo'));
+
+const Panel = React.lazy(() => import('./Panel'));
 
 function App() {
   const [todos, setTodos] = React.useState([]);
@@ -39,22 +39,29 @@ function App() {
   }
 
   function addTodo(title) {
-    setTodos(todos.concat([
+    todos.unshift(
       {
         id: todos.length + 1,
         completed: false,
         title: title
       }
-    ]))
+    );
+    setTodos(todos.concat());
+  }
+
+  function reorder() {
+    console.log(todos);
+    setTodos(todos
+      .filter(todo => !todo.completed)
+      .concat(todos.filter(todo => todo.completed)))
   }
 
   return (
-    <Contex.Provider value={{ removeTodo: removeTodo }}>
+    <Contex.Provider value={{ removeTodo }}>
       <div className="wrapper">
         <h1>TODOList</h1>
-        <Modal/>
         <React.Suspense fallback={<p>Loading...</p>}>
-          <AddTodo onCreate={addTodo} />
+          <Panel onCreate={addTodo} reorder={reorder} />
         </React.Suspense>
         {loading ? <Loader /> : todos.length ?
           (<TodoList todos={todos} completeTask={completeTask} />) : (<p>No todos!</p>)}
