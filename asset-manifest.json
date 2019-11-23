@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/todoList-ReactJS/static/css/main.560dbde5.chunk.css",
-    "main.js": "/todoList-ReactJS/static/js/main.16028276.chunk.js",
-    "main.js.map": "/todoList-ReactJS/static/js/main.16028276.chunk.js.map",
-    "runtime-main.js": "/todoList-ReactJS/static/js/runtime-main.1c710b02.js",
-    "runtime-main.js.map": "/todoList-ReactJS/static/js/runtime-main.1c710b02.js.map",
-    "static/js/2.5fd335df.chunk.js": "/todoList-ReactJS/static/js/2.5fd335df.chunk.js",
-    "static/js/2.5fd335df.chunk.js.map": "/todoList-ReactJS/static/js/2.5fd335df.chunk.js.map",
-    "static/js/3.2baa9507.chunk.js": "/todoList-ReactJS/static/js/3.2baa9507.chunk.js",
-    "static/js/3.2baa9507.chunk.js.map": "/todoList-ReactJS/static/js/3.2baa9507.chunk.js.map",
+    "main.css": "/todoList-ReactJS/static/css/main.741ca9a1.chunk.css",
+    "main.js": "/todoList-ReactJS/static/js/main.5e2ae2af.chunk.js",
+    "main.js.map": "/todoList-ReactJS/static/js/main.5e2ae2af.chunk.js.map",
+    "runtime-main.js": "/todoList-ReactJS/static/js/runtime-main.abf8f224.js",
+    "runtime-main.js.map": "/todoList-ReactJS/static/js/runtime-main.abf8f224.js.map",
+    "static/js/2.dfc8ab33.chunk.js": "/todoList-ReactJS/static/js/2.dfc8ab33.chunk.js",
+    "static/js/2.dfc8ab33.chunk.js.map": "/todoList-ReactJS/static/js/2.dfc8ab33.chunk.js.map",
+    "static/js/3.3eb86de3.chunk.js": "/todoList-ReactJS/static/js/3.3eb86de3.chunk.js",
+    "static/js/3.3eb86de3.chunk.js.map": "/todoList-ReactJS/static/js/3.3eb86de3.chunk.js.map",
     "index.html": "/todoList-ReactJS/index.html",
-    "precache-manifest.f8973f4154c275709f7607ce2912cd4a.js": "/todoList-ReactJS/precache-manifest.f8973f4154c275709f7607ce2912cd4a.js",
+    "precache-manifest.7e8c4334b6bc02bd2587c860f19f3107.js": "/todoList-ReactJS/precache-manifest.7e8c4334b6bc02bd2587c860f19f3107.js",
     "service-worker.js": "/todoList-ReactJS/service-worker.js",
-    "static/css/main.560dbde5.chunk.css.map": "/todoList-ReactJS/static/css/main.560dbde5.chunk.css.map"
+    "static/css/main.741ca9a1.chunk.css.map": "/todoList-ReactJS/static/css/main.741ca9a1.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c710b02.js",
-    "static/js/2.5fd335df.chunk.js",
-    "static/css/main.560dbde5.chunk.css",
-    "static/js/main.16028276.chunk.js"
+    "static/js/runtime-main.abf8f224.js",
+    "static/js/2.dfc8ab33.chunk.js",
+    "static/css/main.741ca9a1.chunk.css",
+    "static/js/main.5e2ae2af.chunk.js"
   ]
 }
